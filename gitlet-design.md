@@ -40,10 +40,8 @@ out each commit.
 `SimpleDateFormat("E dd MMM yyyy HH:mm:ss z")` to print the date.
 
 ### Branch class
-4. `List<String> staged()`: Returns all the file names of the files currently staged.
+1. `List<String> staged()`: Returns all the file names of the files currently staged.
 
-### Main class
-1. 
 
 ## Persistence
 1. Each staged file is added to `".gitlet/index/staged"`.
